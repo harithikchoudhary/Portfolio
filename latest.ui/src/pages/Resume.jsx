@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HarithikImage from "../assets/Harithik.jpg"; // Import the image
+import HarithikResume from "../assets/Harithik-Resume.pdf";
 import {
   Mail,
   Phone,
@@ -307,6 +308,15 @@ const Portfolio = () => {
                 View My Work
                 <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </button>
+              {/* View Resume */}
+              <a
+                href={HarithikResume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 flex items-center gap-2 w-full sm:w-auto justify-center text-sm sm:text-base text-white no-underline"
+              >
+                View Resume
+              </a>
               <button
                 onClick={() => scrollToSection("contact")}
                 className="group border-2 border-gray-600 hover:border-gray-400 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:bg-gray-800/50 flex items-center gap-2 w-full sm:w-auto justify-center text-sm sm:text-base"
