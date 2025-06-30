@@ -126,6 +126,13 @@ const Portfolio = () => {
 
   const achievements = [
     {
+      title: "Microsoft Certified: Azure AI Engineer Associate",
+      description:
+        "Certified proficiency in implementing AI solutions and Generative AI workflows with Azure Cognitive Services to create and operationalize intelligent applications.",
+      metric: "Certified",
+      icon: <Award className="w-4 h-4 sm:w-5 sm:h-5" />,
+    },
+    {
       title: "Smart India Hackathon 2024 Finalist",
       description:
         "Selected among top 1% nationwide for innovative AI solution addressing real-world challenges.",
@@ -138,13 +145,6 @@ const Portfolio = () => {
         "Graduated with distinction, maintaining consistent top performance throughout academic career.",
       metric: "9.13 CGPA",
       icon: <Star className="w-4 h-4 sm:w-5 sm:h-5" />,
-    },
-    {
-      title: "SAP Generative AI Certified",
-      description:
-        "Advanced certification in enterprise AI implementation and business process innovation.",
-      metric: "Certified",
-      icon: <Award className="w-4 h-4 sm:w-5 sm:h-5" />,
     },
   ];
 
@@ -271,30 +271,30 @@ const Portfolio = () => {
             </div>
 
             {/* Hero Description */}
-            <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6 text-base sm:text-lg lg:text-xl text-gray-300 leading-relaxed px-4">
+            <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6 text-base sm:text-lg lg:text-xl text-white leading-relaxed px-4">
               <p>
-                Transforming enterprise software through{" "}
-                <span className="text-blue-400 font-semibold">
-                  cutting-edge AI solutions
+                Building next-generation applications with{" "}
+                <span className="font-semibold">
+                  advanced Generative AI integration
                 </span>{" "}
                 and
-                <span className="text-purple-400 font-semibold">
+                <span className="font-semibold">
                   {" "}
-                  innovative full-stack development
+                  robust Java enterprise solutions
                 </span>
                 .
               </p>
               <p>
-                Specializing in{" "}
-                <span className="text-green-400 font-semibold">
-                  LangChain, RAG architectures
+                Expertise in{" "}
+                <span className="font-semibold">
+                  Generative AI , RAG , microservices architecture
                 </span>
                 , and
-                <span className="text-yellow-400 font-semibold">
+                <span className="font-semibold">
                   {" "}
-                  legacy system modernization
+                  scalable backend development
                 </span>{" "}
-                at scale.
+                for modern enterprises.
               </p>
             </div>
 
