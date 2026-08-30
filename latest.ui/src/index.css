@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;    
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #07090c;
+  color: #e7e4dc;
+  font-family: Manrope, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(61, 184, 232, 0.35);
+  color: #fff;
+}
+
+.noise {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.hero-name {
+  font-family: Inter, Manrope, sans-serif;
+  font-size: clamp(1.85rem, 3.2vw, 2.75rem);
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+}
+
+.hairline {
+  background: linear-gradient(90deg, transparent, rgba(231, 228, 220, 0.22), transparent);
+}
+
+.timeline-rail {
+  background: linear-gradient(180deg, #3db8e8, rgba(61, 184, 232, 0.05));
+}
