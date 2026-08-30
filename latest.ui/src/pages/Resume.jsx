@@ -509,7 +509,7 @@ const Portfolio = () => {
 
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://www.linkedin.com/in/harithikchoudhary"
+              href="https://www.linkedin.com/in/harithik-choudhary/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-mist text-ink px-5 py-3 text-xs uppercase tracking-[0.16em] font-semibold no-underline"
@@ -519,7 +519,7 @@ const Portfolio = () => {
               <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
-              href="https://github.com/harithik"
+              href="https://github.com/harithikchoudhary"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-mist/20 px-5 py-3 text-xs uppercase tracking-[0.16em] no-underline text-mist"
